@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["atish90@gmail.com"]
 
   spec.summary       = "A paytm seller can do all the seller activities like update product info, search orders, print shipping labels and invoices, and manage orders at different stages of the order lifecycle etc using this gem."
-  spec.description   = "Description TODO"
-  spec.homepage      = "https://gitlab.com/AtishSahoo/PaytmSeller"
+  spec.description   = "A paytm seller can do all the seller activities with this gem."
+  spec.homepage      = "https://github.com/atish-sahoo/PaytmSeller"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
