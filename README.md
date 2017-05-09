@@ -22,16 +22,16 @@ Or install it yourself as:
 
 ## Usage
 
-1. Create flipkart client object
+1. Create paytm client object
 
 	fk_client = PaytmSeller::Client.new(CLIENT_ID,CLIENT_SECRET)
 	paytm_client = PaytmSeller::Client.new(MERCHANT_ID, USERNAME, PASSWORD, CLIENT_ID,CLIENT_SECRET)
 
 2. Fetch your orders
 
-	fk_client.fetch_orders
+	paytm_client.fetch_orders
 
-3. update product details
+3. Update product details
 
 	data = {data: [{"sku" : "SKU001","qty" : 10},{"sku" : "SKU002","price" : 100, "mrp" : 80}]}
 
