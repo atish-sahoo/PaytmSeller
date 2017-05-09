@@ -1,4 +1,6 @@
 require "PaytmSeller/version"
+require "PaytmSeller/exception"
+require "PaytmSeller/product"
 require "PaytmSeller/order"
 require "PaytmSeller/base"
 require "PaytmSeller/client"
