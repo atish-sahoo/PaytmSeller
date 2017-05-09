@@ -36,11 +36,17 @@ Or install it yourself as:
 	data = {data: [{"sku" : "SKU001","qty" : 10},{"sku" : "SKU002","price" : 100, "mrp" : 80}]}
 
 	begin
+
 		paytm_client.update_products(data)
+
 	rescue PaytmSeller::InvalidDataException => e
+
 		puts e.response.body
+
 	rescue PaytmSeller::OtherException => e
 
+		puts e.message
+		
 	end
 
 
